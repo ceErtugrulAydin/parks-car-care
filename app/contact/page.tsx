@@ -14,7 +14,8 @@ export default function Contact() {
         </div>
         <div>
           <h2 className="text-2xl font-semibold mb-4">Konumumuz</h2>
-          <p></p><br></br>
+          <p></p>
+          <br></br>
           <div className="bg-gray-200 h-48 md:h-64 mb-4 rounded-lg">
             {" "}
             {/* Replace this div with an actual map or static image */}
@@ -28,9 +29,10 @@ export default function Contact() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
-              <p></p><br></br>
             </div>
           </div>
+          <p></p>
+          <br></br>
           <div className="space-y-2">
             <p className="flex items-center">
               <MapPin className="mr-2 flex-shrink-0" />

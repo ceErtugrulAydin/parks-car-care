@@ -1,12 +1,14 @@
 import Image from "next/image";
 
 const galleryImages = [
-  { src: "/images/gallery1.jpg", alt: "Before and after of a red car" },
-  { src: "/images/gallery2.jpg", alt: "Interior detailing of a luxury car" },
-  { src: "/images/gallery3.jpg", alt: "Exterior wash of a black SUV" },
-  { src: "/images/gallery4.jpg", alt: "Waxing process on a blue sports car" },
-  { src: "/images/gallery5.jpg", alt: "Tire and rim cleaning" },
-  { src: "/images/gallery6.jpg", alt: "Full detailing of a white sedan" },
+  { src: "/images/gallery1.jpeg", alt: "Before and after of a red car" },
+  { src: "/images/gallery2.jpeg", alt: "Interior detailing of a luxury car" },
+  { src: "/images/gallery3.jpeg", alt: "Exterior wash of a black SUV" },
+  { src: "/images/gallery4.jpeg", alt: "Waxing process on a blue sports car" },
+  { src: "/images/gallery5.jpeg", alt: "Tire and rim cleaning" },
+  { src: "/images/gallery6.png", alt: "Full detailing of a white sedan" },
+  { src: "/images/gallery7.png", alt: "Full detailing of a white sedan" },
+  { src: "/images/gallery8.png", alt: "Full detailing of a white sedan" },
 ];
 
 export default function Gallery() {

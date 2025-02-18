@@ -23,11 +23,6 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/appointment" className="hover:underline">
-                Randevu
-              </Link>
-            </li>
-            <li>
               <Link href="/gallery" className="hover:underline">
                 Galeri
               </Link>
@@ -41,12 +36,12 @@ const Header = () => {
         </nav>
         <div className="flex items-center space-x-4">
           <Button asChild className="hidden md:inline-flex">
-            <Link href="/appointment">Rezervasyon yapın</Link>
+            <Link href="/contact">Rezervasyon yapın</Link>
           </Button>
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon" className="md:hidden">
-                <Menu className="h-6 w-6" />
+                <Menu className="h-6 w-6 text-black" />
                 <span className="sr-only">Menu</span>
               </Button>
             </SheetTrigger>
@@ -58,9 +53,6 @@ const Header = () => {
                 <Link href="/services" className="hover:underline">
                   Hizmetlerimiz
                 </Link>
-                <Link href="/appointment" className="hover:underline">
-                  Randevu
-                </Link>
                 <Link href="/gallery" className="hover:underline">
                   Galeri
                 </Link>
@@ -68,7 +60,7 @@ const Header = () => {
                   İletişim
                 </Link>
                 <Button asChild>
-                  <Link href="/appointment">Rezervasyon yapın</Link>
+                  <Link href="/contact">Rezervasyon yapın</Link>
                 </Button>
               </nav>
             </SheetContent>

@@ -23,11 +23,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/appointment" className="hover:underline">
-                  Randevu
-                </Link>
-              </li>
-              <li>
                 <Link href="/gallery" className="hover:underline">
                   Galeri
                 </Link>
@@ -41,8 +36,8 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2">Bize Ulaşın</h3>
-            <p>Balgat, Mevlana Blv. No:28, 06560 Çankaya/Ankara</p>
-            <p>Phone: +90 541 554 13 14</p>
+            <p>Adres: Balgat, Mevlana Blv. No:28, 06560 Çankaya/Ankara</p>
+            <p>Telefon: +90 541 554 13 14</p>
           </div>
         </div>
         <div className="mt-8 text-center">

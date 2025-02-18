@@ -1,18 +1,15 @@
-import ContactForm from "@/components/ContactForm";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-        Bize Ulaşın
-      </h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-8">Bize Ulaşın</h1>
+      <span className="text-lg">
+        Numaramızı arayarak rezervasyon yapabilir ve bilgi alabilirsiniz.
+      </span>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <h2 className="text-2xl font-semibold mb-4">İletişime Geçin</h2>
-          <ContactForm />
-        </div>
-        <div>
+          <br></br>
           <h2 className="text-2xl font-semibold mb-4">Konumumuz</h2>
           <p></p>
           <br></br>

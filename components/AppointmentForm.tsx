@@ -61,7 +61,7 @@ export default function AppointmentForm() {
       <Alert>
         <AlertTitle>Randevu Alındı!</AlertTitle>
         <AlertDescription>
-          Parks Car Care'den randevu aldığınız için teşekkür ederiz. Randevunuzu
+          Parks Car Care&apos;den randevu aldığınız için teşekkür ederiz. Randevunuzu
           onaylamak için kısa süre içinde sizinle iletişime geçeceğiz.
         </AlertDescription>
       </Alert>

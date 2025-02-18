@@ -14,7 +14,7 @@ export default function Contact() {
         </div>
         <div>
           <h2 className="text-2xl font-semibold mb-4">Konumumuz</h2>
-          <p></p>
+          <p></p><br></br>
           <div className="bg-gray-200 h-48 md:h-64 mb-4 rounded-lg">
             {" "}
             {/* Replace this div with an actual map or static image */}
@@ -28,7 +28,7 @@ export default function Contact() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
-              <p></p>
+              <p></p><br></br>
             </div>
           </div>
           <div className="space-y-2">
